@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SaaS_Shell
+  profiles:
+    active: dev
+
+server:
+  port: 8181
+  servlet:
+    context-path: /saas
